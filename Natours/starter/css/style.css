@@ -67,7 +67,9 @@ body {
     animation-name: moveInLeft;
     animation-duration: 1s;
 
+    /*
     animation-delay: 3s;
+    */
 }
 
 
@@ -87,7 +89,7 @@ body {
     }
 
     80% {
-        transform: 10px;
+        transform: 20px;
     }
 
     100% {
