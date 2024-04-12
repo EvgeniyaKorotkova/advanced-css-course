@@ -143,6 +143,8 @@ body {
 
 .btn:hover {
     transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    /*box-shadow: offset X, offset Y, blur, color */
 }
 
 .btn:active {
