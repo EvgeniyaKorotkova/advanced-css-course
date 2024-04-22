@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 *,
 *::after,
 *::before {
@@ -123,7 +122,7 @@ body {
 
 .btn--white {
   background-color: #fff;
-  color: #444141; }
+  color: #777; }
 
 .btn::after {
   content: "";
