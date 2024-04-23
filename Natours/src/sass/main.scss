@@ -1,10 +1,15 @@
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-$color-grey-dark: #777;
-$color-white: #fff;
-$color-black: #000;
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "pages/home";
+
+
 
 *,
 *::after,
@@ -150,15 +155,7 @@ body {
 }
 
 .btn {
-&:link {text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all .2s;
-    position: relative;
-    font-size: 1.6rem;
-    }
+&:link,
 &:visited {
     text-transform: uppercase;
     text-decoration: none;
@@ -169,6 +166,7 @@ body {
     position: relative;
     font-size: 1.6rem;
     }
+
 &:hover {
     transform: translateY(-.3rem);
     box-shadow: 0 1rem 2rem rgba($color-black,.2);
