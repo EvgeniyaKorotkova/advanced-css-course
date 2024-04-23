@@ -132,11 +132,11 @@ body {
     content: "";
     display: table;
     clear: both; }
-  .row .row-1-of-2 {
+  .row .col-1-of-2 {
     width: calc((100%-6rem) / 2);
     background-color: orangered;
     float: left; }
-    .row .row-1-of-2:not(:last-child) {
+    .row .col-1-of-2:not(:last-child) {
       margin-right: 6rem; }
 
 .header {
