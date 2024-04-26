@@ -229,7 +229,7 @@ body {
     -webkit-background-clip: text;
     color: transparent; }
   .feature-box:hover {
-    transform: scale(1.05) translateY(-0.5rem); }
+    transform: scale(1.03) translateY(-1.5rem); }
 
 .row {
   max-width: 114rem;
