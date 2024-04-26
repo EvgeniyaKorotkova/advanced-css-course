@@ -124,7 +124,7 @@ body {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     outline-offset: 2rem;
-    border-radius: 2px;
+    border-radius: 0.05px;
     position: absolute;
     z-index: 10;
     transition: all .2s; }
@@ -138,7 +138,6 @@ body {
       left: 20%;
       top: 12rem; }
     .composition_photo:hover {
-      border-radius: 2px;
       transform: scale(1.05);
       outline: 1.5rem solid #55c57a;
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
