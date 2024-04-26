@@ -5,7 +5,7 @@
         width: 55%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
         outline-offset: 2rem;
-        border-radius: 0.05px;
+        //border-radius: 0.05px;
         position: absolute;
         z-index: 10;
         transition: all .2s;
@@ -36,7 +36,7 @@
     }
 
    &:hover &_photo:not(:hover) {
-        transform: scale(.9);
+        transform: scale(.95);
    }
 
     //composition:hover composition_photo:not(:hover) 
