@@ -15,5 +15,9 @@
         color: transparent;
     }
 
+    &:hover {
+        transform: scale(1.05) translateY(-.5rem);
+    }
+
     &__text {}
 }
