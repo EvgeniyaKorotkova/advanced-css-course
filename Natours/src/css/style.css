@@ -214,6 +214,14 @@ body {
   transform: translateY(0);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
