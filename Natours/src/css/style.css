@@ -129,10 +129,10 @@ body {
       left: 0;
       top: -2rem; }
     .composition_photo--p2 {
-      left: 26rem;
+      right: 0;
       top: 2rem; }
     .composition_photo--p3 {
-      left: 10rem;
+      left: 20%;
       top: 12rem; }
 
 .btn:link, .btn:visited {
