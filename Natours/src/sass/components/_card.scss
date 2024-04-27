@@ -7,9 +7,6 @@
     position: relative;
 
     &__side {
-        
-        color: #fff;
-        font-size: 2rem;
         height: 50rem;
         transition: all .8s ease;
         position: absolute;
@@ -76,4 +73,27 @@
         }
     }
 
+    &__heading {
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $color-white;
+        text-align: right;
+        position: absolute;
+        top: 12rem;
+        right: 2rem;
+        width: 75%;
+    }
+
+    &__heading-span {
+
+        padding: 1rem 1.5rem;
+
+        &--1 {
+            background-image: linear-gradient(
+                to right bottom, 
+                rgba($color-secondary-light, .85), 
+                rgba($color-secondary-dark, .85));
+        }
+    }
 }
