@@ -223,6 +223,16 @@ body {
   transform: translateY(0);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
 
+.card {
+  -moz-perspective: 150rem;
+  perspective: 150rem; }
+  .card__side {
+    background-color: orangered;
+    height: 50rem;
+    transition: all .8s; }
+  .card:hover .card__side {
+    transform: rotateY(180deg); }
+
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
