@@ -5,13 +5,13 @@
     background-color: $color-white;
     border-radius: 3px;
     padding: 6rem;
+    padding-left: 9rem;
     font-size: $default-font-size;
 
     &__shape {
         height: 15rem;
         width: 15rem;
         float: left;
-        background-color: orange;
         -webkit-shape-outside: circle(50% at 50% 50%); //for working in Chrome and Safary browsers
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
