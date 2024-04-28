@@ -12,5 +12,10 @@
         width: 15rem;
         float: left;
         background-color: orange;
+        -webkit-shape-outside: circle(50% at 50% 50%); //for working in Chrome and Safary browsers
+        shape-outside: circle(50% at 50% 50%);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        transform: translateX(-3px);
     }
 }
