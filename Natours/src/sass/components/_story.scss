@@ -5,4 +5,12 @@
     background-color: $color-white;
     border-radius: 3px;
     padding: 6rem;
+    font-size: $default-font-size;
+
+    &__shape {
+        height: 15rem;
+        width: 15rem;
+        float: left;
+        background-color: orange;
+    }
 }
