@@ -354,7 +354,13 @@ body {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: #fff;
   border-radius: 3px;
-  padding: 6rem; }
+  padding: 6rem;
+  font-size: 1.6rem; }
+  .story__shape {
+    height: 15rem;
+    width: 15rem;
+    float: left;
+    background-color: orange; }
 
 .row {
   max-width: 114rem;
