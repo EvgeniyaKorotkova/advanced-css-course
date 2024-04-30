@@ -1,0 +1,8 @@
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; //we set the height to be exact as the parent
+    width: 100%; //we set the width to be exact as the parent
+    z-index: -10;
+}
