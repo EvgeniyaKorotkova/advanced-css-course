@@ -6,6 +6,7 @@
     width: 100%; //we set the width to be exact as the parent
     z-index: -10;
     opacity: .15;
+    overflow: hidden;
 
     &__content {
         height: 100%;
