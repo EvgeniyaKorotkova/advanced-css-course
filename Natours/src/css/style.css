@@ -137,7 +137,16 @@ body {
 
 .section-stories {
   padding: 15rem 0;
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  position: relative; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10; }
 
 .composition {
   position: relative; }
@@ -171,7 +180,7 @@ body {
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 10rem;
+  border-radius: 3px;
   transition: all .2s;
   position: relative;
   font-size: 1.6rem; }
