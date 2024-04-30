@@ -137,7 +137,6 @@ body {
 
 .section-stories {
   padding: 15rem 0;
-  background-color: #f7f7f7;
   position: relative; }
 
 .bg-video {
@@ -180,7 +179,7 @@ body {
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 10px;
   transition: all .2s;
   position: relative;
   font-size: 1.6rem; }
