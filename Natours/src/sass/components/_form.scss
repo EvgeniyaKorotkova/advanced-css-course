@@ -15,18 +15,18 @@
         width: 90%;
         display: block;
 
+        &:focus {
+            outline: none;
+            box-shadow: 0  2rem rgba($color-black, .1);
+            border-bottom: 3px solid $color-primary;
+        }
+
         &::-webkit-input-placeholder {
             color: rgba($color-grey-dark-2, .8)
          }
     }
 
-    &__input:focus {
-        outline: none;
-        box-shadow: 0  2rem rgba($color-black, .1);
-        border-bottom: 3px solid $color-primary;
-    }
-
-   
+      
 
     &__label {
 
