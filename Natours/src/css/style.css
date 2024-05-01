@@ -282,15 +282,15 @@ body {
   border: none;
   cursor: pointer; }
 
-.btn:hover, .btn:focus {
+.btn:hover {
   transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   /*box-shadow: offset X, offset Y, blur, color */ }
-  .btn:hover::after, .btn:focus::after {
+  .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
 
-.btn:active {
+.btn:active, .btn:focus {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
