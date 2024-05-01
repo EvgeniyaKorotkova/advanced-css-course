@@ -50,11 +50,14 @@
     &__radio-group {
         width: 49%;
         display: inline-block;
+
     }
 
     &__radio-label {
         font-size: $default-font-size;
         cursor: pointer;
+        position: relative;
+        padding: 5rem;
     }
 
     &__radio-button {
@@ -62,7 +65,10 @@
         width: 3rem;
         border: 5px solid $color-primary;
         border-radius: 50%;
-        display: block;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
 
         &::after {
 
