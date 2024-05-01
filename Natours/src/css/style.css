@@ -270,7 +270,7 @@ body {
   .composition:hover .composition_photo:not(:hover) {
     transform: scale(0.95); }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -278,13 +278,15 @@ body {
   border-radius: 10px;
   transition: all .2s;
   position: relative;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer; }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   /*box-shadow: offset X, offset Y, blur, color */ }
-  .btn:hover::after {
+  .btn:hover::after, .btn:focus::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
 
