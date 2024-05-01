@@ -17,6 +17,10 @@
         cursor: pointer;
 
         }
+        
+    & {
+        margin: 3rem
+    }    
     
     &:hover {
         transform: translateY(-.3rem);
