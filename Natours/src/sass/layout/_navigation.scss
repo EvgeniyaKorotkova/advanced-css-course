@@ -27,6 +27,8 @@
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         z-index: 1000;
 
+        transform: scale(80);
+
     }
 
     &__nav {
@@ -48,5 +50,10 @@
 
     &__item {}
 
-    &__link {}
+    &__link {
+        font-size: 3rem;
+        font-weight: 300;
+        color: $color-white;
+        text-decoration: none;
+    }
 }
