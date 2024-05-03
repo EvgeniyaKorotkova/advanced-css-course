@@ -48,12 +48,17 @@
 
     }
 
-    &__item {}
+    &__item {
+        margin: 1rem;
+    }
+    
 
     &__link {
         font-size: 3rem;
         font-weight: 300;
         color: $color-white;
         text-decoration: none;
+        text-transform: uppercase;
+        background-image: linear-gradient(120deg, orange 0%, orange 50%, $color-white 50%);
     }
 }
