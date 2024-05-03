@@ -587,6 +587,9 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.navigation__checkbox {
+  display: none; }
+
 .navigation__button {
   background-color: #fff;
   height: 7rem;
@@ -614,3 +617,12 @@ body {
   top: 0;
   right: 0;
   z-index: 1500; }
+
+.navigation__list {
+  list-style: none;
+  text-align: center; }
+  .navigation__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
