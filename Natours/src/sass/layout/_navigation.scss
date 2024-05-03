@@ -1,7 +1,7 @@
 .navigation {
 
     &__checkbox {
-
+        display: none;
     }
 
     &__button {
@@ -37,7 +37,13 @@
         z-index: 1500;
     }
 
-    &__list {}
+    &__list {
+        @include center_gorizontal_vertically;
+
+        list-style: none;
+        text-align: center;
+
+    }
 
     &__item {}
 
